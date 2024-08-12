@@ -1,0 +1,10 @@
+name: clms
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - black
+  - flake8
+  - isort
+  - pylint
