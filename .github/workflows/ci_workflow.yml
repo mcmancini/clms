@@ -10,7 +10,7 @@ jobs:
         node-version: [20.x]
         os: [macOS-latest, windows-latest, ubuntu-latest]
         python-version:
-          - latest
+          - 3.12.0
     defaults:
       run:
         shell: bash -el {0}
